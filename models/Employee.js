@@ -6,11 +6,13 @@ const employeeSchema = new mongoose.Schema(
       type: String,
       trim: true,
       required: true,
+      lowercase: true,
     },
     lastname: {
       type: String,
       trim: true,
       required: true,
+      lowercase: true,
     },
     dob: {
       type: Date,
