@@ -8,10 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
-      'http://localhost:3000',
-      'https://gopendrajangir.github.io/grow-app-client/',
-    ],
+    origin: ['http://localhost:3000', 'https://gopendrajangir.github.io'],
   })
 );
 
